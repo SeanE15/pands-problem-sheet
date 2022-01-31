@@ -8,7 +8,7 @@ Weight = float(input("Please enter your weight in kg: "))
 
 Height = float(input("Please enter your height in cm: "))
 
-# We must then calcutate the BMI by converting the height and weight into common numbers. I do this by converting the height from centimeter to meters (dividing by 100) and then dividng the weight into the height.
+# We must then calcutate the BMI by converting the height and weight into common numbers. I do this by converting the height from centimeter to meters (dividing by 100) and then dividng the weight into the height which was multiplyied to the power of 2.
 
 BMI = Weight / (Height/100)**2
 
