@@ -2,21 +2,16 @@
 # and outputs every second letter in reverse order.
 # Author: Sean Elliott 
 
+
+# We start by asking the user to input a sentence
 question = input('Please enter a sentence: ')
-print(question) 
 
-rawString = input((question)
-reversedString = rawString.reverse
+# we then must calculate the length of the string so that we can then start slicing; this specific line asks python to determine
+# the length of the inputted question
+stringLength=len(question) 
 
-#stringLength = len(input) 
-#slicedString =input[stringlength:: 2] 
-#print (slicedString) 
+# we then take the length of the string and ask it to only output every second character while also reversing the sentence. This works by starting with the length 
+# of the string and ending at index 0.
 
-
-
-#rawString = input("The quick brown fox jumps over the lazy dog."
-#normalisedString = rawStringreverse.strip().lower()
-
-
-#lengthOfRawstring = len(rawString)
-#lengthOfNormalised = len(normalisedString) 
+slicedString=question[stringLength::-2]
+print (slicedString) 
