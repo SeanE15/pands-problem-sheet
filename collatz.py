@@ -7,11 +7,14 @@
 number = int(input(" Please enter a positive integer: ")) 
 
 # We ask the user to input an integer, and then outline the below parameters for the code to analyse whether it is even or odd.
-if ((number % 2) == 0):
+if (number % 2) == 0:
 # Double brackets helped me to compartmentalise what part of the process was happening first. We then must ask python to divide the even integer by 2 as per the insturctions.
-    print((number) % int(2))
+# I used 2 // signs to bring the number to it's most basic value (ie. no decimal places)
+    print((number) // 2)
 # If the program finds that the integer is odd we ask python to multiply the answer by 3 and add 1. Again double brackets help to outline which parts
 # of the process are happening first and also help when we are changing the number "1" to an integer (as it will not work as a string).
-elif number != 0:
+else:
     print((number * 3) + int(1)) 
-
+# We now must get the program to continue processing these following numbers until It hits the number 1. The program should then stop.
+while number >= 1: 
+     print (number) 
