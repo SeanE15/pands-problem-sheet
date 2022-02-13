@@ -4,11 +4,14 @@
 # but if it is odd, multiply it by three and add one. The program must end at value of 1.
 # Author: Sean Elliott 
 
-print(input(" Please enter a positive integer: ")) 
+number = int(input(" Please enter a positive integer: ")) 
 
-counts = 0 
-while counts  0:
-    print(counts)
-    if (counts % 2) == str(0)
-    print(counts) % str(2) 
-    else print(count * 3) + str(1) 
+# We ask the user to input an integer, and then outline the below parameters for the code to analyse whether it is even or odd.
+if ((number % 2) == 0):
+# Double brackets helped me to compartmentalise what part of the process was happening first. We then must ask python to divide the even integer by 2 as per the insturctions.
+    print((number) % int(2))
+# If the program finds that the integer is odd we ask python to multiply the answer by 3 and add 1. Again double brackets help to outline which parts
+# of the process are happening first and also help when we are changing the number "1" to an integer (as it will not work as a string).
+elif number != 0:
+    print((number * 3) + int(1)) 
+
