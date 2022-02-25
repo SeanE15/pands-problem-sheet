@@ -1,15 +1,20 @@
 # Write a program that outputs whether or not today is a weekday.
 # Author: Sean Elliott 
 
-days = ("Monday",
+import datetime 
+x = datetime.datetime.now()
+
+weekDay = ("Monday",
         "Tuesday",
         "Wednesday", 
         "Thursday", 
-        "Friday", 
-        "Saturday", 
-        "Sunday"
-            )
+        "Friday",)
 
-weekend = days[5:7]
-for days in weekend: 
-    print(weekend) 
+weekEnd = ("Saturday", 
+        "Sunday")
+
+if x == weekDay:
+    print ("Yes, today is unforutnately a weekday...!")
+else:
+    print ("It is the weekend, yay!") 
+
