@@ -16,6 +16,7 @@ https://www.w3schools.com/python/python_strings_slicing.asp
 
 https://www.geeksforgeeks.org/python-operators/
 https://www.codegrepper.com/code-examples/python/iseven+python
+https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
 
 
 # References for weekDay.py
