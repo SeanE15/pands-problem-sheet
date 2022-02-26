@@ -6,7 +6,7 @@
 
 def collatz(number): 
 
-# We start by defining the module of 'collatz' which is a built in function in Python.
+# We start by defining the function of 'collatz' which is a built in function in Python.
     if (number % 2) == 0:
 # Double brackets helped me to compartmentalise what part of the process was happening first. We then must ask python to divide the even integer by 2 as per the insturctions.
 # I used 2 // signs to bring the number to it's most basic value (ie. no decimal places) If the number is even, the program will return an even answer.
@@ -18,7 +18,7 @@ def collatz(number):
         answer = ((number * 3) + 1)
         print(answer)
         return (answer)
-# The above is the module that we will be running below, the intial stages are all outlining how we want the program to perform.
+# The above is the program that we will be running below, the intial stages are all outlining how we want the program to perform.
 # We now must get the program to continue processing these following numbers until it hits the number 1. The program should then stop.
 
 number = (input(" Please enter a positive integer: ")) 
