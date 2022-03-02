@@ -2,24 +2,18 @@
 # Author: Sean Elliott 
 
 
-# I start by using the built in module "datetime" which will display the current day of the week. I ask python to import this info for the current day/time.
+# I start by using the built in module "datetime" which will display the current day of the week. I ask python to import this info for the current day/time and then use the weekday. 
+# function to assign a number a number to each weekday starting at 0 for Monday. We will then get the program to distinguish what day of the week it is based on this reading.
 import datetime 
-x = datetime.datetime.now()
+x = datetime.datetime.today().weekday()
 
-# I then set the parameters for the definition of weekday and weekend. This will then allow me to create a if/else selection which is crude but works exactly as I want it to.
-weekDay = ("Monday",
-        "Tuesday",
-        "Wednesday", 
-        "Thursday", 
-        "Friday",)
+# Python arranges the days of the week as a set of integers. The program will then follow the instructions below and print out
+# the correct print out based on whether it is a weekday/weekend. 0-4 are week days and 5/6 are Sat/Sun.
 
-weekEnd = ("Saturday", 
-        "Sunday")
+if x <= 5: 
+    print("Yes, today is unfortunately a weekday...!")
+else: 
+    print("It is the weekend, yay!") 
 
-# I then specify that if x = a weekday (as defined by the list above) it will print out one statement; if not it will print out the other statement.
-if x == weekDay: 
-    print ("Yes, today is unfortunately a weekday...!")
-else:
-    print ("It is the weekend, yay!") 
+# if 'x' (the current day) is a weekday (as defined by the list above) it will print out the weekday statement; if not it will print out the other .
 
-# I will look to find out some way of tidying the inputs (weekDay and weekEnd) to see if they can be made to look even shorter.

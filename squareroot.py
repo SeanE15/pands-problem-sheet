@@ -2,7 +2,7 @@
 # You should create a function called <tt>sqrt</tt> that does this.
 # Author: Sean Elliott 
 
-def newtonMethod:   
+def newtonMethod (number, number_it):   
     root = 0.5 * (number + (a/number)) 
 
 

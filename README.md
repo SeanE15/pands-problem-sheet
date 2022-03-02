@@ -36,3 +36,8 @@ https://realpython.com/lessons/python-return-overview/
 https://www.programiz.com/python-programming/datetime/current-datetime 
 
 'Automate the Boring Stuff', Al Sweigart, pg335-346, No Starch Press, ISBN-10: 1-59327-599-4 2015
+
+
+# References for squareroot.py 
+---
+
