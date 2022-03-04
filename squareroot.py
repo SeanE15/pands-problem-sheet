@@ -2,15 +2,19 @@
 # You should create a function called <tt>sqrt</tt> that does this.
 # Author: Sean Elliott 
 
-def newtonMethod (number, number_it):   
-    root = 0.5 * (number + (a/number)) 
 
+sqrt = []
 
-a = input("Please enter a positive number: ") 
+def sqrt(number):   
+    a = float(number)
+    for a in range(number): 
+        number = 0.5 * (number + a/number) 
+        print (number)
 
+a = int(input("Enter a positive integer:"))
+#print("The square root of {} is approximately {}") 
+print(sqrt)
 
-
-
-input("Please enter a positive number: ") 
-result = 
-print ("The square root of {} is approximately {}") 
+#input("Please enter a positive number: ") 
+#answer = sqrt
+#print ("The square root of {} is approximately {}") 
