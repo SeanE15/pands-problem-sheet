@@ -4,6 +4,9 @@
 
 https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator
 
+https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python
+
+https://peps.python.org/pep-0498/
 
 # References for secondString.py 
 ---

@@ -13,6 +13,7 @@ Height = float(input("Please enter your height in cm: "))
 
 BMI = Weight / (Height/100)**2
 
-# Now we must print the answer for the user to give them their BMI reading. I am yet to figure out how to get the answer to 2 decimal places - scouring w3schools.
+# Now we must print the answer for the user to give them their BMI reading, we also ask the program to print the answer to 2 decimal places. We do this by using the f-strings format.
+# The 2f asks the program to print the answer to 2 decimal places.
 
-print (f"Your BMI is {BMI}")
+print (f"Your BMI is (Kg/m2) {BMI:.2f}")
