@@ -14,7 +14,7 @@ def collatz(number):
         return number // 2
 # If the program finds that the integer is odd we ask the program to multiply the answer by 3 and add 1. Again double brackets help to outline which parts
 # of the process are happening first. We then ask the  program to return the value that it has calculated (so that the answer is displayed).
-    elif number % 2 == 1:
+    elif (number % 2) == 1:
         answer = ((number * 3) + 1)
         print(answer)
         return (answer)
