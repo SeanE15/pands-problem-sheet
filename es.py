@@ -1,13 +1,5 @@
-# this is a program that will read in a text file - and output the number of times 'e' appears in the file 
+# This is a program that will read in a text file - and output the number of times 'e' appears in the file 
 #Author: Sean Elliott 
-
-# Download link for moby dick.txt https://gist.github.com/StevenClontz/4445774 
-# https://stackoverflow.com/questions/37400974/unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3-trunca
-# https://realpython.com/python-command-line-arguments/
-# https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/
-# https://pythonexamples.org/python-count-number-of-characters-in-text-file/
-# https://stackoverflow.com/questions/37400974/unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3-trunca
-# https://stackoverflow.com/questions/56710024/what-is-a-raw-string 
 
 def letterCount(fileName, letter):
 # We start by defining the function 'letterCount' which will read in two values for later int heprogram
