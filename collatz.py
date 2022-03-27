@@ -18,6 +18,7 @@ def collatz(number):
         answer = ((number * 3) + 1)
         print(answer)
         return (answer)
+        
 # The above is the program that we will be running below, the intial stages are all outlining how we want the program to perform.
 # We now must get the program to continue processing these following numbers until it hits the number 1. The program should then stop.
 # We use a while loop to break the chain while the integer is not equal to 1. Once 1 is reached, the program ends.

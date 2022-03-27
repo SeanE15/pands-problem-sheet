@@ -1,4 +1,4 @@
-**References for BMI calcuator**
+**<p align="center"> References for BMI calcuator**
 ---
 # This is a program that calculates Body Mass Index (BMI).
 
@@ -10,7 +10,7 @@
 
 4. https://peps.python.org/pep-0498/
 
-**References for secondString.py**
+**<p align="center"> References for secondString.py**
 ---
 # This is a program that asks the user to input a string and outputs every second letter in reverse order.
 
@@ -19,7 +19,7 @@
 2. [W3Schools](https://www.w3schools.com/python/python_strings_slicing.asp)
 
 
-**References for Collatz.py**
+**<p align="center"> References for Collatz.py**
 --- 
 # This is a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. The program must end at value of 1.
 
@@ -33,7 +33,7 @@
 
 5. 'Automate the Boring Stuff', Al Sweigart, pg61-75, No Starch Press, ISBN-10: 1-59327-599-4 2015
 
-**References for weekDay.py**
+**<p align="center"> References for weekDay.py**
 ---
 # This is a program that outputs whether or not today is a weekday.
 
@@ -46,10 +46,10 @@
 4. 'Automate the Boring Stuff', Al Sweigart, pg335-346, No Starch Press, ISBN-10: 1-59327-599-4 2015
 
 
-**References for squareroot.py**
+**<p align="center"> References for squareroot.py**
 ---
 
-**References for es.py**
+<**<p align="center"> References for es.py**
 ---
 # This is a program that will read in a text file and output the number of times 'e' appears in the file.
 
@@ -67,9 +67,11 @@
 
 7. https://stackoverflow.com/questions/56710024/what-is-a-raw-string 
 
+8. https://www.knowledgehut.com/blog/programming/sys-argv-python-examples 
 
 
-**References for Plottask.py**
+
+**<p align="center"> References for Plottask.py**
 ---
 # This is a program that will plot f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 
@@ -80,3 +82,9 @@
 3. [W3Schools] (https://www.w3schools.com/python/matplotlib_labels.asp)
 
 4. [W3Schools] (https://www.w3schools.com/python/matplotlib_plotting.asp)
+
+5. https://www.mathway.com/Algebra
+
+**<p align="center"> Markdown Language Reference**
+---
+1. https://www.markdownguide.org/cheat-sheet/
