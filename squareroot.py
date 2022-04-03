@@ -2,18 +2,16 @@
 # You should create a function called <tt>sqrt</tt> that does this.
 # Author: Sean Elliott 
 
-
-sqrt = []
-
-def sqrt(number):   
-    a = float(number)
-    for a in range(number): 
-        number = 0.5 * (number + a/number) 
-        print (number)
-
-a = int(input("Enter a positive integer:"))
-#print("The square root of {} is approximately {}") 
+def sqrt(a):   
+    num1 = (a ** 0.5) 
+    print(num1)
+    return (num1) 
+a = float(input("Enter a positive integer:"))
 print(sqrt)
+#print("The square root of {} is approximately {}") 
+
+#print("The square root of {} is approx. {} ")
+
 
 #input("Please enter a positive number: ") 
 #answer = sqrt

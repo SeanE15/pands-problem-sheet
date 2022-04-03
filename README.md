@@ -1,6 +1,6 @@
 **<p align="center"> References for BMI calcuator**
 ---
-# This is a program that calculates Body Mass Index (BMI).
+This is a program that calculates Body Mass Index (BMI).
 
 1. [W3Schools](https://www.w3schools.com/python/python_numbers.asp)
 
@@ -12,7 +12,7 @@
 
 **<p align="center"> References for secondString.py**
 ---
-# This is a program that asks the user to input a string and outputs every second letter in reverse order.
+This is a program that asks the user to input a string and outputs every second letter in reverse order.
 
 1. https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python 
 
@@ -21,7 +21,7 @@
 
 **<p align="center"> References for Collatz.py**
 --- 
-# This is a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. The program must end at value of 1.
+This is a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. The program must end at value of 1.
 
 1. https://www.geeksforgeeks.org/python-operators/
 
@@ -33,9 +33,12 @@
 
 5. 'Automate the Boring Stuff', Al Sweigart, pg61-75, No Starch Press, ISBN-10: 1-59327-599-4 2015
 
+6. https://realpython.com/python-return-statement/#returning-vs-printing
+
+
 **<p align="center"> References for weekDay.py**
 ---
-# This is a program that outputs whether or not today is a weekday.
+This is a program that outputs whether or not today is a weekday.
 
 1. [W3Schools](https://www.w3schools.com/python/trypython.asp?filename=demo_datetime2)
 
@@ -49,9 +52,9 @@
 **<p align="center"> References for squareroot.py**
 ---
 
-<**<p align="center"> References for es.py**
+**<p align="center"> References for es.py**
 ---
-# This is a program that will read in a text file and output the number of times 'e' appears in the file.
+This is a program that will read in a text file and output the number of times 'e' appears in the file.
 
 1. Download link for moby dick.txt https://gist.github.com/StevenClontz/4445774 
 
@@ -73,7 +76,7 @@
 
 **<p align="center"> References for Plottask.py**
 ---
-# This is a program that will plot f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+This is a program that will plot f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 
 1. https://hplgit.github.io/bumpy/doc/pub/._basics005.html 
 
