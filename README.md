@@ -1,6 +1,6 @@
 **<p align="center"> References for BMI calcuator**
 ---
-This is a program that calculates Body Mass Index (BMI).
+This is a program that calculates Body Mass Index (BMI). The program asks the user to input their weight in kg and height in cm. It then divide the hieght by the weight (which is also divided by 100) and then multiplies the answer by 2 - which produces the users BMI reading. The BMI reading is to 2 decimal places.
 
 1. [W3Schools](https://www.w3schools.com/python/python_numbers.asp)
 
@@ -12,7 +12,7 @@ This is a program that calculates Body Mass Index (BMI).
 
 **<p align="center"> References for secondString.py**
 ---
-This is a program that asks the user to input a string and outputs every second letter in reverse order.
+This is a program that asks the user to input a string and outputs every second letter in reverse order. The program takes the users input and reverses it before returning only every second letter in a sentence format. The sentence we were required to use is as follows: The quick brown fox jumps over the lazy dog.
 
 1. https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python 
 
@@ -38,7 +38,7 @@ This is a program that asks the user to input any positive integer and outputs t
 
 **<p align="center"> References for weekDay.py**
 ---
-This is a program that outputs whether or not today is a weekday.
+This is a program that outputs whether or not today is a weekday. This program does this by using the built in date.time function in Python and allocates every day fo the week a number from 0 - 6. If the number allocated is less than 5 the program prints out that it is a weekday - if the number returned is 5 or great it will recognise that it is infact the weekend.
 
 1. [W3Schools](https://www.w3schools.com/python/trypython.asp?filename=demo_datetime2)
 
@@ -51,10 +51,16 @@ This is a program that outputs whether or not today is a weekday.
 
 **<p align="center"> References for squareroot.py**
 ---
+This is a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+I had to create a function called 'sqrt' that does this rather than using python's built in square root/math functions.
+
+1. https://flexiple.com/square-root-in-python/ 
+
+2. https://en.wikipedia.org/wiki/Floating-point_arithmetic
 
 **<p align="center"> References for es.py**
 ---
-This is a program that will read in a text file and output the number of times 'e' appears in the file.
+This is a program that will read in a text file and output the number of times 'e' appears in the file. This program works on a function deifned by myself - which reads in a text file - scanning it for the letter 'e' and returns the value of the amount of 'e's in the file. The file is read from the repository that this file is posted with (which contains the text file). Meaning that anyone who uses this code should get the same result as myself.
 
 1. Download link for moby dick.txt https://gist.github.com/StevenClontz/4445774 
 
@@ -76,7 +82,7 @@ This is a program that will read in a text file and output the number of times '
 
 **<p align="center"> References for Plottask.py**
 ---
-This is a program that will plot f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+This is a program that will plot f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes. Using the built in functions of Matplotlib and Numpy this program plots a graph using the formulas provided. It then ooutputs the three values - all of which are colour coded. The key for the plot clearly shows which values are which.
 
 1. https://hplgit.github.io/bumpy/doc/pub/._basics005.html 
 

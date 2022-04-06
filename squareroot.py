@@ -2,17 +2,18 @@
 # You should create a function called <tt>sqrt</tt> that does this.
 # Author: Sean Elliott 
 
+
+# We start writing this program by creating a function called 'sqrt' as per the instructions. In the function below we create an if/else statement. 
+# If the input is is less than 0 (ie. not a positive number) it will return a value fo zero. 
+# If the number is greater than 0, the program will multiply the input by .5 to find the square root of the number.
+
+
 def sqrt(a):   
-    num1 = (a ** 0.5) 
-    print(num1)
-    return (num1) 
-a = float(input("Enter a positive integer:"))
-print(sqrt)
-#print("The square root of {} is approximately {}") 
+    if a < 0:
+        return 0
+    else:
+        return (a ** 0.5)
 
-#print("The square root of {} is approx. {} ")
+a = int(input("Enter a positive integer:"))
 
-
-#input("Please enter a positive number: ") 
-#answer = sqrt
-#print ("The square root of {} is approximately {}") 
+print(sqrt(a))
